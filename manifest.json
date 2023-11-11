@@ -1,0 +1,30 @@
+{
+  "name": "Kado-Ex",
+  "description": "Kadoの拡張機能です",
+  "version": "0.0.1",
+  "manifest_version": 3,
+  "permissions": ["storage"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://www.sejuku.net/*"],
+      "js": ["script.js"]
+    },
+    {
+      "matches": ["https://twitter.com/*"],
+      "js": ["twitter.js"],
+      "css": ["twitter.css"]
+    },
+    {
+      "matches": ["https://classroom.google.com/*"],
+      "js": ["google.js"],
+      "css": ["google.css"]
+    },
+    {
+      "matches": ["https://www.youtube.com/*"],
+      "js": ["youtube.js"]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+@media (prefers-color-scheme: dark) {
+  .d4Fe0d {
+    background: black !important;
+  }
+  .Aopndd,
+  .SZ0kZe {
+    border: 0.0625rem solid #555 !important;
+  }
+  * {
+    background: black !important;
+  }
+  * {
+    color: #eee !important;
+  }
+  * img {
+    filter: brightness(75%);
+  }
+  * img:hover {
+    filter: none;
+  }
+}
