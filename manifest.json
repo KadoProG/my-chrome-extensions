@@ -23,8 +23,8 @@
       "css": ["google.css"]
     },
     {
-      "matches": ["https://www.youtube.com/*"],
-      "js": ["youtube.js"]
+      "matches": ["https://calendar.google.com/*"],
+      "css": ["calendar.google.com/style.css"]
     }
   ]
 }
