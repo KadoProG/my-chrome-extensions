@@ -25,6 +25,10 @@
     {
       "matches": ["https://calendar.google.com/*"],
       "css": ["calendar.google.com/style.css"]
+    },
+    {
+      "matches": ["https://supporterz.commmune.com/*"],
+      "css": ["supporterz.commmune.com/style.css"]
     }
   ]
 }

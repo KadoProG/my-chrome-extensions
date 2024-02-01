@@ -1,0 +1,12 @@
+@media (prefers-color-scheme: dark) {
+  html {
+    background: white;
+  }
+  body {
+    filter: invert(1);
+  }
+  img {
+    filter: invert(1) brightness(50%);
+    background: black;
+  }
+}
