@@ -28,6 +28,7 @@
     },
     {
       "matches": ["https://supporterz.commmune.com/*"],
+      "js": ["supporterz.commmune.com/script.js"],
       "css": ["supporterz.commmune.com/style.css"]
     }
   ]
