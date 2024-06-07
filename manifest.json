@@ -34,6 +34,10 @@
       "matches": ["https://www.amazon.co.jp/*"],
       "js": ["amazon.co.jp/script.js"],
       "css": ["amazon.co.jp/style.css"]
+    },
+    {
+      "matches": ["https://www.clubdam.com/*"],
+      "css": ["clubdam.com/style.css"]
     }
   ]
 }
